@@ -1,0 +1,165 @@
+@{
+ViewData["Title"] = "Register Car";
+}
+
+<h1>Register New Cars Here</h1>
+
+<!-- content -->
+<div class="register">
+    
+
+    <div class="form">
+
+        <div class="row">
+
+            <div class="col-4">
+                <label>Make:</label>
+            </div>
+
+            <div class="col-8">
+                <input id="make" type="text" class="form-control">
+
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-4">
+                <label>Model:</label>
+            </div>
+            <div class="col-8">
+                <input id="model" type="text" class="form-control">
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-4">
+                <label>Year</label>
+            </div>
+
+            <div class="col-8">
+                <input id="year" type="text" class="form-control">
+
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-4">
+                <label>Daily Price</label>
+            </div>
+
+            <div class="col-8">
+                <input id="dailyPrice" type="text" class="form-control">
+
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-4">
+                <label>Cylinders</label>
+            </div>
+
+            <div class="col-8">
+                <input id="cyls" type="text" class="form-control">
+
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-4">
+                <label>Passengers</label>
+            </div>
+
+            <div class="col-8">
+                <input id="passengers" type="text" class="form-control">
+
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-4">
+                <label>Type</label>
+            </div>
+
+            <div class="col-8">
+                <select id="type" type="text" class="form-control">
+                    <option selected>Choose...</option>
+                    <option value="economy">Economy</option>
+                    <option value="midLux">Mid-Luxury</option>
+                    <option value="supLux">Super-Luxury</option>
+                    <option value="sport">Sport</option>
+                    <option value="supSport">Super Sport</option>
+                </select>
+            </div>
+            
+        </div>
+        <div class="row">
+
+            <div class="col-4">
+                <label>Image</label>
+            </div>
+
+            <div class="col-8">
+                <input id="imageUrl" type="text" class="form-control">
+
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-4">
+                <label>Description</label>
+            </div>
+
+            <div class="col-8">
+                <input id="description" type="text" class="form-control">
+
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-4">
+                <label>Fuel Type</label>
+            </div>
+
+            <div class="col-8">
+                <select id="fuelType" type="text" class="form-control">
+                    <option selected>Choose...</option>
+                    <option value="Petrol">Petrol</option>
+                    <option value="diesel">Diesel</option>
+                    <option value="hybrid">Hybrid</option>
+                </select>
+            </div>
+
+        </div>
+
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-8">
+                    <button id="btnSave" class="btn btn-dark">Register Item</button>
+
+                    <span id="alertSuccess" class="btn btn-outline-dark hidden"><strong>The car was registered successfully!</strong>
+
+                    </span>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section Styles{
+    <link href="/css/register.css" rel="stylesheet">
+}
+
+    @section Scripts{
+    <script src="/js/catalog/register.js"></script>
+    }
+

@@ -1,0 +1,36 @@
+
+h1{
+    text-align: center;
+    color: rgb(46, 45, 45);
+    margin-bottom: 1px;  
+    margin-left: 20.5%;
+    padding: 20px 10px;
+    background-color: rgba(214, 203, 205, 0.918); 
+    box-shadow: -2px 3px 3px #aaa;
+    width: 60%;  
+}
+
+label{
+    color: rgba(46, 45, 45, 0.911);
+    text-align: right;
+}
+
+.row{
+    margin-bottom: 25px;
+}
+.col-4{
+    text-align: right;
+}
+.hidden{
+    display: none;
+}
+.register{
+    border:1px solid rgba(255, 192, 203, 0.863);
+    box-shadow: -2px 0 3px #aaa;
+    padding: 0;
+    margin-top: 0;   
+    margin-bottom: 5rem; 
+    margin-left: 20.5%;
+    width: 60%;
+    background: rgba(214, 210, 210, 0.945);
+}
